@@ -5,13 +5,67 @@
 	flex-direction: column;
 	justify-items: center;
 	align-items: center;
-	margin-top: 240px;
+	margin-top: 260px;
+}
+
+header
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	word-spacing: 15px;
+}
+
+.rightside
+{
+	float: right;
+}
+
+ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li
+{
+	float: left;
+}
+
+li a
+{
+	display: block;
+	padding: 8px;
+	text-decoration: none;
+	color: gray;
+}
+
+li a:hover
+{
+	text-decoration: inherit;
+}
+
+
+
+#googleApps
+{
+	max-width: 30px;	
+	padding-left: 10px;
 }
 
 #googleLogo
 {
 	width: 350px;
 	height: auto;
+}
+
+#sign
+{
+	word-spacing: 1px;
+	background-color: #4285f4;
+	border-radius: 5%;
+	color: white;
 }
 
 #searchbar
@@ -21,7 +75,7 @@
 	border-radius: 25px;
 	border-width: .1em;
 	width: 570px;
-	height: 45px;
+	height: 50px;
 }
 
 #searchbar:focus
